@@ -1,4 +1,6 @@
 // components/HomePage.js
+"use client"; // Add this line at the top to mark this as a Client Component
+
 import React, { useState } from 'react';
 import { Box, Typography, TextField, Button, Card, IconButton } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
@@ -223,3 +225,5 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
+            
